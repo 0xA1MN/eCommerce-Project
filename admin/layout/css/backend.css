@@ -1,0 +1,169 @@
+/* Start Main Rules */
+body {background-color: #f4f4f454}
+a, a:hover {text-decoration: none}
+.clickable {cursor:pointer}
+
+/* End Main Rules */
+
+/* Start Bootstrap Edits */
+.form-control {
+  position: relative;
+}
+.asterisk{
+  font-size: 21px;
+  position: absolute;
+  right: 24px;
+  top: 7px;
+  color: #f00;
+}
+/* End Bootstrap Edits */
+
+/* Start Login Form */
+.login {width: 400px; margin: 150px auto}
+.login h4 {
+  color: #888;
+  font-size: 30px;
+  font-weight: 400;
+}
+.login input {background-color: #E5E5E5} 
+.login .btn {background-color: #00DDFF; font-weight: 500}
+/* End Login Form */
+
+/* Start NAVBAR bootstrap edits */
+.navbar {background-color: #494d5f !important}
+nav .dropdown-menu {
+  position: absolute;
+  top:48px;
+  border-radius: 0;
+  background-color: #494d5f!important;
+  padding: 0;
+  margin: 0;
+  border: 0
+}
+nav .dropdown-item {padding: 4px 13px; color: #fff}
+nav .dropdown-item:hover {color: #fff; background-color: #52cece}
+/* End NAVBAR bootstrap edits */
+
+/* Start Dashboard */
+.home-stat .stat {
+  padding: 20px;
+  color: #FFF;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.home-stat .stat .st-i {
+  font-size: 60px;
+  top: 24px;
+  position: relative;
+}
+.home-stat .stat .info {
+  float: right;
+  overflow: hidden;
+}
+.home-stat .stat .stat-i {
+  font-size: 30px;
+  padding: 6px;
+}
+.home-stat .stat span {
+  display: block;
+  font-size: 60px;
+}
+.home-stat .stat span a {
+  text-decoration: none;
+  color: #fff;
+}
+  @media(min-width:576px) and (max-width: 992px){
+  .home-stat .stat {padding: 5px; font-size: 12px;}
+  .home-stat .stat span {font-size: 35px}
+}
+.latest {margin-top: 30px}
+.latest .l-t {padding: 0 10px 0 0}
+.latest .card-header {font-weight: 600;}
+.latest .card-header .toggle-info {color: #999; cursor: pointer}
+.latest .card-header .toggle-info:hover {color: #444}
+.latest .card-body {padding: 12px;}
+.st-members {background-color: #3498db;}
+.st-pending {background-color: #c0392b;}
+.st-items {background-color: #d36400;}
+.st-comments {background-color: #8e44ad;}
+.latest-list li {
+  border: none;
+  padding: 5px;
+  line-height: 30px;
+  border-radius: 0;
+}
+.latest-list li:nth-child(odd) {background-color: #ccc3;}
+.list-group-item:first-child {border-top-left-radius: 0;border-top-right-radius: 0}
+.list-group-item:last-child {border-bottom-right-radius: 0;border-bottom-left-radius: 0}
+.latest-list li .btn-info {margin-right: 5px}
+.latest .card-body hr:last-of-type {display: none} /* comments */
+/* End Dashboard */
+
+/* Start Members Page */
+.member-h1 {margin: 30px 0; color: #34495e; letter-spacing: 1px;}
+.main-table {box-shadow: 0 3px 10px #ccc;}
+.main-table th {background-color: #dee2e6;}
+.add-m-btn {
+  float: left;
+  margin: 20px 5%;
+  width: 40%;
+}
+
+/* Start Edit member */
+.form-horizontal .edit-members label {margin-top: 8px}
+.form-horizontal .form-group {margin: 30px 0}
+/* End Edit member */
+
+/* Start Add member */
+.show-pass {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+}
+/* End Add member */
+/* End Members Page */
+
+/* start categories */
+.categories .card-header>span {color: #403e3e;font-weight: bold}
+.categories .card-header>i {position: relative; top: 1px}
+.categories .card-body {padding: 0}
+.categories .cat {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.categories .cat .hidden-buttons {
+  transition: all .5s ease-in-out;
+  position: absolute;
+  top: 20px;
+  right: -170px;
+}
+
+.categories .option a {color: #888}
+.categories .option span {color: #888; cursor: pointer}
+.categories .option .active {color: #f00;}
+
+.categories .cat:hover .hidden-buttons{right: 20px}
+.categories .cat:hover {background-color: #eee}
+.categories .cat .hidden-buttons a {margin-right: 5px}
+.categories .cat h3 {
+  margin: 0;
+  cursor: pointer;
+  color: #201a1a;
+  font-weight: 600;
+}
+.categories .cat .full-view p {
+  margin-top: 10px;
+  color: #181616;
+}
+.categories .cat span {
+  font-size: 12px; 
+  padding: 0.35em .5em;
+  font-weight: 600;
+  margin-right: 4px
+}
+.categories:last-of-type {margin-bottom: 20px;}
+.categories .cat:last-of-type ~ hr {display: none}
+/* End categories */

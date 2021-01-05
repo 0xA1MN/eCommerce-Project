@@ -1,0 +1,189 @@
+/* Start General Edits */
+a.deco-none {color:#000000 !important; text-decoration:none}
+.clickable {cursor:pointer}
+
+/* remove arrows input[type=“number”]*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/* End General Edits */
+
+/* Start Header */
+.upper-bar {height: 50px; margin: 0; padding: 0;}
+.upper-bar button {
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  text-transform: capitalize
+}
+.upper-bar button:focus {outline: 0 !important}
+.upper-bar .avatar {
+  height: 40px;
+  border-radius: 50%;
+}
+.upper-bar .align-center {position: relative; top: 10%}
+/* End Header */
+
+/* Start NAVBAR bootstrap edits */
+.navbar {background-color: #494d5f !important}
+nav .dropdown-menu {
+  position: absolute;
+  top:48px;
+  border-radius: 0;
+  background-color: #494d5f!important;
+  padding: 0;
+  margin: 0;
+  border: 0
+}
+nav .dropdown-item {padding: 4px 13px; color: #fff}
+nav .dropdown-item:hover {color: #fff; background-color: #52cece}
+/* End NAVBAR bootstrap edits */
+
+/* start login */
+.login-page h1 {margin: 60px 0; font-size: 40px; cursor: pointer}
+.login-page form {max-width: 350px; margin: auto}
+.login-page h1 span {color: #50525c}
+.login-page form .form-group{position: relative}
+.login-page .selected {color: #ed4f4f}
+.login-page .signup {display: none}
+.login-page form button {margin: 30px 0}
+/* end login */
+
+/* start Profile */
+.block {margin: 20px 0}
+.information .card-body p {padding: 10px; margin: 0}
+.information .card-body p:nth-child(odd) {background-color: #EEE}
+.information .card-body p i {margin: 0 5px}
+.information .card-body p span {display: inline-block; width: 160px;}
+
+.ads .cat-title {margin: 25px 0}
+.ads .cat-card-edit {
+  padding: 10px;
+  border: 0
+}
+.ads .cat-card-edit .waiting-approve {
+  position: absolute;
+  color: #fff;
+  background-color: #0abde3;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0; 
+  min-width: 60px;
+  top: 70px;
+  left: 10px;
+  font-weight: 500;
+}
+.ads .cat-card-edit .price {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  background-color: #ee5253;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0; 
+  min-width: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+.ads .cat-card-edit .price:after {content: " $"}
+.ads .cat-card-body-edit {padding: 10px 0 0 5px}
+.ads .cat-card-body-edit .date {
+  text-align: right;
+  font-size: 13px;
+  color: #222f3e;
+  font-weight: 500;
+  padding-right: 20px
+}
+/* End Profile */
+
+/* Start New Ad */
+.create-ad .card-header {font-weight: 600}
+.create-ad .data {font-weight: 500}
+.create-ad .data .asterisk {right: 24px !important; top: 7px !important}
+.create-ad .preview {margin: 50px 0}
+.create-ad .preview .price {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0; 
+  min-width: 60px;
+  text-align: center;
+}
+.create-ad .preview .price:after {content: " $"}
+
+.ast-new-ad {right: 24px !important; top: 7px !important}
+/* End New Ad */
+
+/* Start Categories */
+.cat-page-edit .card {border: 0}
+.cat-page-edit .card .price {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0; 
+  min-width: 60px;
+  text-align: center;
+}
+.cat-page-edit .card .price:after {content: " $";}
+  .cat-page-edit .card .card-text {
+  height: 75px;
+  overflow: hidden;
+}
+.cat-page-edit .card .date {
+  text-align: right;
+  font-size: 13px;
+  color: #222f3e;
+  font-weight: 500;
+  padding-right: 20px
+}
+/* End Categories */
+/* Start Items */
+.item-info h5 {
+  padding: 0 10px;
+}
+.item-info p {
+  padding: 0 10px;
+}
+.item-info ul li{padding: 10px }
+.item-info li:nth-child(odd) {background-color: #EEE}
+.item-info li span {display: inline-block; width: 160px; padding-left: 5px}
+
+.item-info .posted-comments { 
+  margin: 5px 0;
+  background-color: #f9f9f9;
+}
+.item-info .posted-comments img {
+  border-radius: 50%;
+  margin: 0 20px;
+
+}
+.item-info .posted-comments .media-body {
+  margin: 20px 20px 10px 20px;
+}
+.item-info .posted-comments .media-body span {
+  float: right;
+  margin: 30px 0 5px 0;
+}
+/* End Items */
+/* Start Index */
+/* End Index */
+/* Start Misc */
+.asterisk{
+  font-size: 21px;
+  position: absolute;
+  right: 9px;
+  top: 39px;
+  color: #f00;
+}
+
+/* End Misc */
